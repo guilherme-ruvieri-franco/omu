@@ -1,0 +1,620 @@
+/*
+
+Cores usadas na OMU (código hexadecimal):
+Amarelo: F8BA1B
+Laranja: F95E3E
+Azul: 3856F8
+Rosa: F89EDA
+Bege: FFF8E1
+Para titulos (tags marcadas como H: H1, H2, H3, H4): Jost
+Para subtitulos e textos (todas as outras tags de texto): Nimbus
+
+<link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
+font-family: 'Nimbus Sans L', helvetica;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+font-family: "Jost", arial;
+font-optical-sizing: auto;
+
+Arial, Times New Roman, Helvetica e Courier New
+
+*/
+
+/*Marcação do HTML*/
+h1 {
+    font-family: "Jost", arial;
+    font-optical-sizing: auto;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Nimbus Sans L', helvetica;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Nimbus Sans L', helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+    border: none;
+    outline: none;
+}
+
+footer {
+    background-color: #3856F8;
+    color: #FFFFFF;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: x-large;
+    font-weight: 300;
+}
+
+footer div {
+    width: 44vw;
+    margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+    display: inline-block;
+}
+
+footer h3 {
+    font-family: "Jost", arial;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 5vh;
+    width: 40%;
+}
+
+body {
+    margin: 0% 0% 0% 0%;
+}
+
+header {
+    height: 10vh;
+}
+
+
+/*Classes*/
+
+.cabecalho {
+    display: flex;
+}
+
+.cabecalho-branco {
+    display: flex;
+    color:#FFFFFF;
+    position: absolute;
+    top: 1px;
+    z-index: 2;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.link-login {
+    color: #F8BA1B;
+    font-weight: 500;
+}
+
+.link-login-branco{
+    color: #F8BA1B;
+    font-weight: 500;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+}
+
+.menu-navegacao-branco {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+    color:#ffffff;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.link-desativado1 {
+    text-decoration: underline;
+    color: #F95E3E;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+}
+
+.link-desativado2 {
+    text-decoration: underline;
+    color: #3856F8;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+}
+
+.link-desativado3 {
+    text-decoration: underline;
+    color: #F89EDA;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+}
+
+.logo-grande {
+    height: 10vh;
+    width: auto;
+}
+
+.logo-grande-fit {
+    height: 12vh;
+    width: auto;
+}
+
+.logo-metade {
+    height: auto;
+    width: 10vw;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    width: 11vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+.lado-a-lado {
+    display: flex;
+    flex-direction: row;
+    margin: 0vh 0vw 0vh 0vw;
+    align-items: center;
+}
+
+.link-sem-margem {
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+.intro {
+    margin-left: 5vw;
+    font-size: 3.25vh;
+}
+
+.intro-titulo {
+    font-size: 2.4em;
+    margin-bottom: 0%;
+    line-height: 1.15;
+}
+
+.intro p {
+    font-family: 'Nimbus Sans L', helvetica;
+    font-weight: -100;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-branco {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.botao-azul {
+    background-color: #3856F8;
+    border: #3856F8 solid 1px;
+    border-radius: 10px;
+    padding: 1vh 1vh 1vh 1vh;
+    margin: 0% 0% 0% 0%;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.botao-amarelo {
+    background-color: #F8BA1B;
+    border: #F8BA1B solid 1px;
+    border-radius: 10px;
+    padding: 1vh 1vh 1vh 1vh;
+    margin: 0% 0% 0% 0%;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.div-pai-footer {
+    display: flex;
+    align-items: stretch;
+    margin: 0% 0% 0% 0%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    max-width: 900px;
+}
+
+.centralizador {
+    display: flex;
+    justify-content: center;
+    margin: 1vh 0vw 1vh 0vw;
+}
+
+.centralizador .botao-amarelo {
+    margin: 3vh 0vh 7vh 0vh;
+}
+
+.linha-vertical {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #000;
+    transform: translateX(-50%);
+}
+
+.bolinha-extremidade {
+    position: absolute;
+    left: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.bolinha-extremidade.topo {
+    top: -0.2rem;
+}
+
+.bolinha-extremidade.fundo {
+    bottom: -0.2rem;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6vh 0;
+}
+
+.lado-esquerdo,
+.lado-direito {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.lado-esquerdo {
+    justify-content: flex-end;
+    padding-right: 0.1rem;
+}
+
+.lado-direito {
+    justify-content: flex-start;
+    padding-left: 0.1rem;
+}
+
+.linha-pontilhada {
+    border-top: 1px dotted #000;
+    height: 0;
+    width: 33%;
+}
+
+.bolinha-preta {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #000;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.texto {
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.lado-esquerdo>.bolinha-preta,
+.lado-direito>.bolinha-preta {
+    margin: 0;
+}
+
+
+.texto-omu {
+    display: flex;
+    align-items: stretch;
+    margin-top: 2.5%;
+    z-index: 1;
+    position: relative;
+}
+
+.texto-omu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(356deg, rgba(248, 158, 218, 1) 31%, rgba(248, 158, 218, 0) 31.1%);
+    z-index: 2;
+}
+
+.intro,
+.imagem-omu {
+    position: relative;
+    z-index: 1;
+}
+
+.imagem-omu {
+    margin: 0% 0% 9% 9%;
+}
+
+.cards {
+    margin: 0vh 0vw 10vh 0vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Nimbus Sans L', helvetica;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 78%, rgba(248, 158, 218, 1) 75%);
+}
+
+.cards img {
+    width: 10vw;
+    margin: 6vh 0vw 0vh 7.5vw;
+}
+
+.card-vermelho {
+    width: 25vw;
+    border: #F95E3E solid 5px;
+    border-radius: 20px;
+    padding: 0vh 0vw 5vh 0vw;
+    background-color: #FFFFFF;
+}
+
+.card-amarelo {
+    width: 25vw;
+    border: #F8BA1B solid 5px;
+    border-radius: 20px;
+    padding: 0vh 0vw 5vh 0vw;
+    background-color: #FFFFFF;
+}
+
+.card-azul {
+    width: 25vw;
+    border: #3856F8 solid 5px;
+    border-radius: 20px;
+    padding: 0vh 0vw 5vh 0vw;
+    background-color: #FFFFFF;
+}
+
+.card-vermelho p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 0.4;
+}
+
+.card-amarelo p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 0.4;
+}
+
+.card-azul p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 0.4;
+}
+
+.texto-sobre-omu-branco {
+    background-color: #F89EDA;
+    color: #FFFFFF;
+    padding: 2vh 6vh 2vh 6vh;
+}
+
+.texto-sobre-omu-branco p {
+    font-size: 1.5em;
+    word-spacing: 0.5vw;
+    width: 100%;
+}
+
+.texto-blog {
+    display: flex;
+    align-items: stretch;
+    margin-top: 2.5%;
+    z-index: 1;
+    position: relative;
+}
+
+.texto-blog p {
+    font-size: 0.7em;
+}
+
+.pagina-escura{
+    background-color: #000000;
+}
+
+.l1{
+    font-weight: 500;
+}
+
+.l2{
+    font-weight: 500;
+}
+
+.l3{
+    font-weight: 500;
+}
+
+
+.l1-branco{
+    color:#FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l1-branco:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2-branco{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.l2-branco:hover {
+    text-decoration: none;
+    color: #3856F8;
+}
+
+.l3-branco{
+    color:#FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l3-branco:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.titulo-manchete{
+font-family: "Jost", arial;
+font-size: 7vh;
+
+}
+
+.texto-manchete{
+font-family: "Jost", arial;
+font-size: 4vh;
+
+}
+
+#link-manchete{
+text-decoration: none; 
+color: #F95E3E; 
+font-weight: 500; 
+font-size: 3vh;
+font-family: "Jost", arial;
+width: 25vw;
+display:inline-block;
+margin-right: 10vw;
+}
+
+.imagem-manchete{
+height: 4vh; 
+width: auto;
+}
+
+.link-manchete:hover{
+    text-decoration: none;
+}
+
+.manchete{
+    display: flex; flex-direction: column; margin-right:90vw;
+}
+
+#imagem-blog{
+    object-fit: cover
+}
+
+
+
+
+/*Animação*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+.l1:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2:hover {
+    color: #3856F8;
+    text-decoration: none;
+}
+
+.l3:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-login-branco:hover {
+    color: #F8BA1B;
+    text-decoration: none;
+}
+
+.botao-azul:hover {
+    text-decoration: none;
+    background-color: #0c2091;
+}
+
+.botao-amarelo:hover {
+    text-decoration: none;
+    background-color: #a07301;
+}

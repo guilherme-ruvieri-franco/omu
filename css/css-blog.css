@@ -1,0 +1,206 @@
+/*Menu de navegação*/
+.cabecalho-branco {
+    display: flex;
+    color: #FFF8E1;
+    position: absolute;
+    z-index: 2;
+    font-family: "Jost", arial;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.menu-navegacao-branco {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+    color: #FFF8E1;
+}
+
+#espaco-igualmente-distribuido {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Menu de navegação*/
+
+.intro {
+    margin-left: 5vw;
+    font-size: 3.25vh;
+}
+
+.intro p {
+    font-family: 'Nimbus Sans L', helvetica;
+    font-weight: -100;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.texto-blog {
+    display: flex;
+    align-items: stretch;
+    margin-top: 2.5%;
+    z-index: 1;
+    position: relative;
+}
+
+.texto-blog p {
+    font-size: 0.7em;
+}
+
+/* Menu de navegação e suas cores */
+.link-login-branco {
+    color: #F8BA1B;
+    font-weight: 500;
+}
+
+.link-login-branco:hover {
+    color: #F8BA1B;
+    text-decoration: none;
+}
+
+.l1-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l1-branco:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2-branco {
+    color: #FFF8E1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.l2-branco:hover {
+    text-decoration: none;
+    color: #3856F8;
+}
+
+.l3-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l3-branco:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.l4-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l4-branco:hover {
+    color: #F8BA1B;
+    text-decoration: none;
+}
+
+#imagem-blog {
+    width: 100vw;
+    object-fit: cover
+}
+
+#legenda {
+    width: 90vw;
+    text-align: left;
+    left: 5vw;
+}
+
+.titulo-manchete {
+    font-family: 'Jost';
+}
+
+.texto-manchete {
+    font-family: 'Nimbus Sans L';
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+    font-family: 'Jost';
+    font-size: 2em;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+    font-family: 'Jost';
+    font-size: 2em;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+    font-family: 'Jost';
+    font-size: 2em;
+}
+
+.span-rosa {
+    color: #F89EDA;
+    font-weight: 900;
+    font-family: 'Jost';
+    font-size: 2em;
+}
+
+.link-manchete {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.botao-manchete {
+    height: 5vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #3856F8;
+}
+
+/*
+linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%);
+*/
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%);;
+    z-index: 1;
+    pointer-events: none; 
+}
+
+.carousel-item img {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 2;
+}
+
+#botao-azul{
+    background-color: #3856F8;
+}

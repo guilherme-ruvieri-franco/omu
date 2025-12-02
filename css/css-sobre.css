@@ -1,0 +1,252 @@
+.cabecalho {
+    display: flex;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.link-login {
+    color: #3856F8;
+    font-weight: 700;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-rosa {
+    color: #F89EDA;
+    font-weight: 900;
+}
+
+.span-branco {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.span-vermelho-grosso {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul-grosso {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo-grosso {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-rosa-grosso {
+    color: #F89EDA;
+    font-weight: 900;
+}
+
+.span-branco-grosso {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.span-preto-grosso {
+    color: #000000;
+    font-weight: 900;
+}
+
+.l1,
+.l2,
+.l3 {
+    font-weight: 500;
+    font-family: 'Jost';
+}
+
+.l1:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2:hover {
+    color: #3856F8;
+    text-decoration: none;
+}
+
+.l3:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #FFF8E1;
+}
+
+h1 {
+    font-family: 'Jost';
+    font-size: 2.25em;
+    margin-bottom: 0%;
+}
+
+.texto-colorido {
+    font-family: 'Nimbus Sans L';
+    font-weight: 400;
+    margin: 0% 0% 0% 0%;
+}
+
+.linhas-coloridas {
+    margin: 0vh 0vw 0vh 2vw;
+}
+
+.box-texto-colorido {
+    margin: 0vw 5vw 10vw 5vw;
+    font-family: 'Nimbus Sans L';
+    font-size: 1.25em;
+    word-spacing: 1.5px;
+}
+
+.box-pilares {
+    width: 90vw;
+    margin: 0vw 5vw 0vw 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-missao-visao {
+    font-family: "Jost", sans-serif;
+    font-size: 1.25em;
+    width: 40vw;
+
+}
+
+.box-valores {
+    font-family: "Jost", sans-serif;
+    font-size: 1.25em;
+    width: 45vw;
+    margin:0vh 0vw 0vh 2.5vw;
+ 
+}
+
+.missao {
+    border: 2px solid #F8BA1B;
+    border-radius: 5px;
+    padding: 1vh 2vw 1vh 2vw;
+    font-family: 'Nimbus Sans L';
+    margin:0vh 0vw 5vh 0vw;
+    text-align: justify;
+}
+
+.visao {
+    border: 2px solid #F95E3E;
+    border-radius: 5px;
+    padding: 1vh 2vw 1vh 2vw;
+    font-family: 'Nimbus Sans L';
+    text-align: justify;
+}
+
+.valores {
+    border: 2px solid #3856F8;
+    border-radius: 5px;
+    padding: 1vh 1vw 1vh 2vw;
+    font-family: 'Nimbus Sans L';
+    text-align: justify;
+}
+
+.box-foto-triangulo-texto{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+        margin: 0vw 5vw 0vw 0vw;
+}
+
+.foto-triangulo{
+    width: 30vw;
+    margin:0vh 7.5vw 0vh 10vw;
+}
+
+#sobre-nos{
+    font-size: 3.5em;
+    margin-top: 10vh;
+}
+
+.sobre-omu{
+    font-family: 'Nimbus Sans L';
+    font-size:1.25em;
+    text-align: justify;
+}
+
+#jost-grosso-historia{
+    font-family: 'Jost';
+    letter-spacing: 1px;
+}
+
+.numeros-omu{
+    font-family: 'Nimbus Sans L';
+}
+
+.mapa-numeros-omu{
+    margin: 0vh 0vw 0vh 5vw;
+}
+
+.forma-e-frase{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em ;
+    margin: 0vh 0vh 2vh 0vh;
+}
+
+.forma{
+    height: 4vh;
+    vertical-align:text-bottom;
+}
+
+.frase{
+    margin: 0vh 0vh 0vh 2vh;
+}
+
+#omu-numeros{
+margin:5vh 0vh 3vh 0vh;
+}
