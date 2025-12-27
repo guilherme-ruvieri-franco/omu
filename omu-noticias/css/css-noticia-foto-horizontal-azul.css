@@ -1,0 +1,187 @@
+/*Menu de navegação*/
+.cabecalho-branco {
+    display: flex;
+    color: #FFF8E1;
+    position: absolute;
+    top: 1px;
+    z-index: 2;
+    font-family: "Jost", arial;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.menu-navegacao-branco {
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+    color: #FFF8E1;
+}
+
+#espaco-igualmente-distribuido {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Menu de navegação*/
+
+.intro {
+    margin-left: 5vw;
+    font-size: 3.25vh;
+}
+
+.intro p {
+    font-family: 'Nimbus Sans L', helvetica;
+    font-weight: -100;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.texto-blog {
+    display: flex;
+    align-items: stretch;
+    margin-top: 2.5%;
+    z-index: 1;
+    position: relative;
+}
+
+.texto-blog p {
+    font-size: 0.7em;
+}
+
+/* Menu de navegação e suas cores */
+.link-login-branco {
+    color: #F8BA1B;
+    font-weight: 500;
+}
+
+.link-login-branco:hover {
+    color: #F8BA1B;
+    text-decoration: none;
+}
+
+.l1-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l1-branco:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2-branco {
+    color: #FFF8E1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.l2-branco:hover {
+    text-decoration: none;
+    color: #3856F8;
+}
+
+.l3-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l3-branco:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.l4-branco {
+    color: #FFF8E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.l4-branco:hover {
+    color: #F8BA1B;
+    text-decoration: none;
+}
+
+/* Menu de navegação e suas cores */
+
+
+/*Estrutura da Página*/
+#pagina-azul {
+    background-color: #3856F8;
+    color: #FFF8E1;
+}
+
+.logo-galeria{
+    height: 6vh;
+}
+
+.galeria-noticias{
+    margin: 20vh 0vh 4vh 5vw;
+    font-family: "Jost", arial;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+}
+
+.paragrafo-noticias-antigas{
+    width: 40%;
+    margin: 0% 2vw 0% 2vw;
+    font-weight: 700;
+}
+
+.link-galeria-noticias{
+    color:#FFF8E1;
+    text-decoration: none;
+}
+.foto-manchete{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-foto {
+    position: relative;
+    margin: 20vh 2vw 2vh 2vw;
+    display: inline-block;
+}
+
+.foto{
+    width: 60vw;
+    height: auto;
+    display: block;
+    filter: brightness(70%) grayscale(110%);
+}
+
+.legenda{
+    margin: 20vh 2vw 2vh 2vw;
+    font-family: 'Nimbus Sans L';
+    font-weight: 700;
+}
+
+.manchete{
+    position: absolute;
+    bottom: 0;         
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Jost';
+    font-size: 2em;
+    color: #FFF8E1;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    box-sizing: border-box;
+}
+
+.texto{
+    font-family: 'Nimbus Sans L';
+    margin: 0vh 2vw 0vh 2vw;
+}

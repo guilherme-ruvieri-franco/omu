@@ -1,0 +1,179 @@
+.cabecalho {
+    display: flex;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.link-login {
+    color: #3856F8;
+    font-weight: 700;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-branco {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+.l1,
+.l2,
+.l3 {
+    font-weight: 500;
+    font-family: 'Jost';
+}
+
+.l1:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2:hover {
+    color: #3856F8;
+    text-decoration: none;
+}
+
+.l3:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #FFF8E1;
+    margin: 0%;
+}
+
+.box-pai {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90vh;
+    margin: 0% 5% 0% 5%;
+}
+
+.box-nivel {
+    width: 19%;
+    border: 5px solid #3856F8;
+}
+
+.box-prova {
+    width: 24%;
+    border: 5px solid #F89EDA;
+}
+
+.box-solucoes {
+    width: 24%;
+    border: 5px solid #F8BA1B;
+}
+
+.box-medalhistas {
+    width: 29%;
+    border: 5px solid #3856F8;
+}
+
+.box-medalhistas,
+.box-nivel,
+.box-prova,
+.box-solucoes {
+    margin: 0% 0.5% 0% 0.5%;
+}
+
+.altura-G,
+.altura-M,
+.altura-P {
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Nimbus Sans L';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.altura-G {
+    height: 19vh;
+    margin: 5% 0% 5% 0%;
+    font-size: 2em;
+}
+.altura-M{
+    height: 14vh;
+    margin: 5% 0% 5% 0%;
+    font-size: 1.5em;
+}
+
+.nivel-rosa,
+.nivel-azul,
+.nivel-amarelo,
+.nivel-vermelho {
+    color: #000000;
+    font-family: 'Jost';
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5vh;
+}
+
+.nivel-amarelo {
+    background-color: #F8BA1B;
+}
+
+.nivel-azul {
+    background-color: #3856F8;
+}
+
+.nivel-vermelho {
+    background-color: #F95E3E;
+}
+
+.nivel-rosa {
+    background-color: #F89EDA;
+}

@@ -1,0 +1,122 @@
+.cabecalho {
+    display: flex;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.link-login {
+    color: #3856F8;
+    font-weight: 700;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-branco {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+.l1, .l2, .l3{
+    font-weight: 500;
+    font-family: 'Jost';
+}
+.l1:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2:hover {
+    color: #3856F8;
+    text-decoration: none;
+}
+
+.l3:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: #FFF8E1;
+}
+
+/*Galeria de Polaroids Noticias*/
+
+.foto{
+    width: 27.5vw;
+    filter: brightness(70%) grayscale(110%);
+}
+
+.polaroid-manchete:hover .foto{
+    filter: brightness(100%) grayscale(0%);
+}
+.manchete{
+     position: absolute;
+     bottom: 1vh;
+     left: 2vw;
+     font-family: 'Jost';
+     color:#FFF8E1;
+     font-weight: 900;
+     font-size: 1.75em;
+}
+
+.polaroid-manchete{
+    height: 30vh;
+    position: relative;
+}
+
+.galeria-polaroid{
+    margin: 0% 0% 0% 0%;
+    width: 100%;
+}
+
+.linha-noticias{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.75%;
+}

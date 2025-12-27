@@ -204,3 +204,15 @@ linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%);
 #botao-azul{
     background-color: #3856F8;
 }
+
+#botao-rosa{
+    background-color: #F89EDA;
+}
+
+#botao-vermelho{
+    background-color: #F95E3E;
+}
+
+#botao-amarelo{
+    background-color: #F8BA1B;
+}

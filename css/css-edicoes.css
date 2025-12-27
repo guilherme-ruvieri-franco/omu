@@ -1,0 +1,177 @@
+.cabecalho {
+    display: flex;
+}
+
+.logo-omu {
+    width: 6vw;
+    height: auto;
+    margin: 2.5vh 4vw 0vh 4vw;
+}
+
+.link-login {
+    color: #3856F8;
+    font-weight: 700;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    font-size: 1.5em;
+    margin: 4vh 0vw 0vh 3.5vw;
+}
+
+.link-logo-omu {
+    margin-left: 0vw;
+}
+
+.span-vermelho {
+    color: #F95E3E;
+    font-weight: 900;
+}
+
+.span-azul {
+    color: #3856F8;
+    font-weight: 900;
+}
+
+.span-amarelo {
+    color: #F8BA1B;
+    font-weight: 900;
+}
+
+.span-branco {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+.l1, .l2, .l3{
+    font-weight: 500;
+    font-family: 'Jost';
+}
+.l1:hover {
+    color: #F95E3E;
+    text-decoration: none;
+}
+
+.l2:hover {
+    color: #3856F8;
+    text-decoration: none;
+}
+
+.l3:hover {
+    color: #F89EDA;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4%;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: #FFF8E1;
+}
+
+.box-anos{
+    display: flex;
+  height: 70vh;
+  width: 80vw;
+  margin: 0vh 10vw 0vh 10vw;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.fileira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 12.5vh;
+    margin: 1.2% 0% 1.2% 0%;
+}
+
+.card-ano-azul{
+    background-color: #3856F8;
+    border-radius: 2%;
+    width: 17.5%;
+    height: 18%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color:#FFF8E1;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.card-ano-rosa{
+    background-color: #F89EDA;
+    border-radius: 2%;
+   width: 17.5%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color:#FFF8E1;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.card-ano-vermelho{
+    background-color: #F95E3E;
+    border-radius: 2%;
+    width: 17.5%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color:#FFF8E1;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.card-ano-amarelo{
+    background-color: #F8BA1B;
+    border-radius: 2%;
+    width: 17.5%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color:#FFF8E1;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.card-invisivel{
+    background-color: #FFF8E1;
+    border-radius: 2%;
+    width: 17.5%;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color:#FFF8E1;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+
